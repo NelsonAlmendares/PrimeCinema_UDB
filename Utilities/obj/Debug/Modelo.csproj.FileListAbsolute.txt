@@ -1,0 +1,9 @@
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\bin\Debug\Utilities.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\bin\Debug\Utilities.pdb
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\bin\Debug\MySql.Data.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\bin\Debug\MySql.Data.xml
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\obj\Debug\Utilities.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Utilities\obj\Debug\Utilities.pdb

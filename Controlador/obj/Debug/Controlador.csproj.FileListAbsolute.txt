@@ -1,0 +1,11 @@
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\Controlador.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\Controlador.pdb
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\Utilities.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\Utilities.pdb
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\bin\Debug\MySql.Data.xml
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\obj\Debug\Controlador.csproj.AssemblyReference.cache
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\obj\Debug\Controlador.dll
+C:\Users\nelso\source\repos\Prime_Cinema\Controlador\obj\Debug\Controlador.pdb

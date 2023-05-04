@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74840C75-10D6-40F8-87CD-CB687C9B17E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Prime_Cinema</RootNamespace>
+    <AssemblyName>Prime_Cinema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna UI 2.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.33.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 8.0.33\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Cliente.cs" />
+    <Compile Include="Data\Repositorio.cs" />
+    <Compile Include="RegistroPelicualas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroPelicualas.Designer.cs">
+      <DependentUpon>RegistroPelicualas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroSalas.Designer.cs">
+      <DependentUpon>RegistroSalas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash_Screen.Designer.cs">
+      <DependentUpon>Splash_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Sucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Sucursales.Designer.cs">
+      <DependentUpon>Registro_Sucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Primer_Uso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Primer_Uso.Designer.cs">
+      <DependentUpon>Primer_Uso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_Empleado.Designer.cs">
+      <DependentUpon>Register_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroPelicualas.resx">
+      <DependentUpon>RegistroPelicualas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroSalas.resx">
+      <DependentUpon>RegistroSalas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Sucursales.resx">
+      <DependentUpon>Registro_Sucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Primer_Uso.resx">
+      <DependentUpon>Primer_Uso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register_Empleado.resx">
+      <DependentUpon>Register_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar-signo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video-camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_moving_forward_re_rs8p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_welcoming_re_x0qo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_completing_re_i7ap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controlador\Controlador.csproj">
+      <Project>{e551389b-bf0e-457b-b296-7238fd5e78e1}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teatro_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teatro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camara-de-video_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camara-de-video1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rueda-dentada_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rueda-dentada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aumentador_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_transfer_files_re_a2a9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_home_cinema_l7yl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_horror_movie_3988.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
