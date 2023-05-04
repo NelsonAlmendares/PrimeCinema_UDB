@@ -260,5 +260,8 @@
   <ItemGroup>
     <None Include="Resources\undraw_horror_movie_3988.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceso.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

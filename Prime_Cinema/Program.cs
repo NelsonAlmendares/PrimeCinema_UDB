@@ -16,7 +16,7 @@ namespace Prime_Cinema
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard());
+            Application.Run(new Primer_Uso());
         }
     }
 }

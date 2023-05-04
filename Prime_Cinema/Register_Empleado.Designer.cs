@@ -47,13 +47,14 @@ namespace Prime_Cinema
             this.Txt_Name = new Guna.UI.WinForms.GunaTextBox();
             this.data_Clientes = new System.Windows.Forms.DataGridView();
             this.txt_Id = new Guna.UI.WinForms.GunaTextBox();
-            this.Test_Connection = new Guna.UI.WinForms.GunaButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Btn_Close = new System.Windows.Forms.Button();
             this.cmbTipoUser = new Guna.UI.WinForms.GunaComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.cmb_Estado = new Guna.UI.WinForms.GunaComboBox();
+            this.Login = new Guna.UI.WinForms.GunaButton();
+            this.Test_Connection = new Guna.UI.WinForms.GunaButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Btn_Close = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_Clientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -329,60 +330,6 @@ namespace Prime_Cinema
             this.txt_Id.Size = new System.Drawing.Size(159, 40);
             this.txt_Id.TabIndex = 38;
             // 
-            // Test_Connection
-            // 
-            this.Test_Connection.Animated = true;
-            this.Test_Connection.AnimationHoverSpeed = 0.09F;
-            this.Test_Connection.AnimationSpeed = 0.05F;
-            this.Test_Connection.BackColor = System.Drawing.Color.Transparent;
-            this.Test_Connection.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(163)))), ((int)(((byte)(226)))));
-            this.Test_Connection.BorderColor = System.Drawing.Color.Black;
-            this.Test_Connection.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Test_Connection.FocusedColor = System.Drawing.Color.Empty;
-            this.Test_Connection.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Test_Connection.ForeColor = System.Drawing.Color.White;
-            this.Test_Connection.Image = global::Prime_Cinema.Properties.Resources.wifi;
-            this.Test_Connection.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Test_Connection.ImageSize = new System.Drawing.Size(30, 30);
-            this.Test_Connection.Location = new System.Drawing.Point(1395, 534);
-            this.Test_Connection.Name = "Test_Connection";
-            this.Test_Connection.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(193)))), ((int)(((byte)(235)))));
-            this.Test_Connection.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.Test_Connection.OnHoverForeColor = System.Drawing.Color.White;
-            this.Test_Connection.OnHoverImage = null;
-            this.Test_Connection.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(108)))), ((int)(((byte)(150)))));
-            this.Test_Connection.OnPressedDepth = 90;
-            this.Test_Connection.Radius = 15;
-            this.Test_Connection.Size = new System.Drawing.Size(61, 59);
-            this.Test_Connection.TabIndex = 39;
-            this.Test_Connection.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Test_Connection.Click += new System.EventHandler(this.Test_Connection_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Prime_Cinema.Properties.Resources.undraw_moving_forward_re_rs8p;
-            this.pictureBox1.Location = new System.Drawing.Point(1108, 161);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(348, 360);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Btn_Close
-            // 
-            this.Btn_Close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_Close.FlatAppearance.BorderSize = 0;
-            this.Btn_Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
-            this.Btn_Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
-            this.Btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Close.Image = global::Prime_Cinema.Properties.Resources.cerrar;
-            this.Btn_Close.Location = new System.Drawing.Point(1465, 90);
-            this.Btn_Close.Name = "Btn_Close";
-            this.Btn_Close.Size = new System.Drawing.Size(35, 34);
-            this.Btn_Close.TabIndex = 18;
-            this.Btn_Close.UseVisualStyleBackColor = true;
-            this.Btn_Close.Click += new System.EventHandler(this.Btn_Close_Click);
-            // 
             // cmbTipoUser
             // 
             this.cmbTipoUser.BackColor = System.Drawing.Color.Transparent;
@@ -441,12 +388,96 @@ namespace Prime_Cinema
             this.cmb_Estado.Size = new System.Drawing.Size(496, 37);
             this.cmb_Estado.TabIndex = 42;
             // 
+            // Login
+            // 
+            this.Login.Animated = true;
+            this.Login.AnimationHoverSpeed = 0.09F;
+            this.Login.AnimationSpeed = 0.05F;
+            this.Login.BackColor = System.Drawing.Color.Transparent;
+            this.Login.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(193)))), ((int)(((byte)(235)))));
+            this.Login.BorderColor = System.Drawing.Color.Black;
+            this.Login.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Login.FocusedColor = System.Drawing.Color.Empty;
+            this.Login.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.ForeColor = System.Drawing.Color.White;
+            this.Login.Image = global::Prime_Cinema.Properties.Resources.acceso;
+            this.Login.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Login.ImageSize = new System.Drawing.Size(30, 30);
+            this.Login.Location = new System.Drawing.Point(1319, 534);
+            this.Login.Name = "Login";
+            this.Login.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(193)))), ((int)(((byte)(235)))));
+            this.Login.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Login.OnHoverForeColor = System.Drawing.Color.White;
+            this.Login.OnHoverImage = null;
+            this.Login.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(108)))), ((int)(((byte)(150)))));
+            this.Login.OnPressedDepth = 90;
+            this.Login.Radius = 15;
+            this.Login.Size = new System.Drawing.Size(61, 59);
+            this.Login.TabIndex = 44;
+            this.Login.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
+            // 
+            // Test_Connection
+            // 
+            this.Test_Connection.Animated = true;
+            this.Test_Connection.AnimationHoverSpeed = 0.09F;
+            this.Test_Connection.AnimationSpeed = 0.05F;
+            this.Test_Connection.BackColor = System.Drawing.Color.Transparent;
+            this.Test_Connection.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(163)))), ((int)(((byte)(226)))));
+            this.Test_Connection.BorderColor = System.Drawing.Color.Black;
+            this.Test_Connection.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Test_Connection.FocusedColor = System.Drawing.Color.Empty;
+            this.Test_Connection.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Test_Connection.ForeColor = System.Drawing.Color.White;
+            this.Test_Connection.Image = global::Prime_Cinema.Properties.Resources.wifi;
+            this.Test_Connection.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Test_Connection.ImageSize = new System.Drawing.Size(30, 30);
+            this.Test_Connection.Location = new System.Drawing.Point(1395, 534);
+            this.Test_Connection.Name = "Test_Connection";
+            this.Test_Connection.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(193)))), ((int)(((byte)(235)))));
+            this.Test_Connection.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Test_Connection.OnHoverForeColor = System.Drawing.Color.White;
+            this.Test_Connection.OnHoverImage = null;
+            this.Test_Connection.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(108)))), ((int)(((byte)(150)))));
+            this.Test_Connection.OnPressedDepth = 90;
+            this.Test_Connection.Radius = 15;
+            this.Test_Connection.Size = new System.Drawing.Size(61, 59);
+            this.Test_Connection.TabIndex = 39;
+            this.Test_Connection.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Test_Connection.Click += new System.EventHandler(this.Test_Connection_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Prime_Cinema.Properties.Resources.undraw_moving_forward_re_rs8p;
+            this.pictureBox1.Location = new System.Drawing.Point(1108, 161);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(348, 360);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Btn_Close
+            // 
+            this.Btn_Close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Close.FlatAppearance.BorderSize = 0;
+            this.Btn_Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
+            this.Btn_Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
+            this.Btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Close.Image = global::Prime_Cinema.Properties.Resources.cerrar;
+            this.Btn_Close.Location = new System.Drawing.Point(1465, 90);
+            this.Btn_Close.Name = "Btn_Close";
+            this.Btn_Close.Size = new System.Drawing.Size(35, 34);
+            this.Btn_Close.TabIndex = 18;
+            this.Btn_Close.UseVisualStyleBackColor = true;
+            this.Btn_Close.Click += new System.EventHandler(this.Btn_Close_Click);
+            // 
             // Register_Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(1523, 968);
+            this.Controls.Add(this.Login);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.cmb_Estado);
             this.Controls.Add(this.label3);
@@ -510,5 +541,6 @@ namespace Prime_Cinema
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label8;
         private Guna.UI.WinForms.GunaComboBox cmb_Estado;
+        private Guna.UI.WinForms.GunaButton Login;
     }
 }

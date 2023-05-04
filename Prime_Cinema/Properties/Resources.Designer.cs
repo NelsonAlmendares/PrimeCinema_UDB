@@ -63,6 +63,16 @@ namespace Prime_Cinema.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap acceso {
+            get {
+                object obj = ResourceManager.GetObject("acceso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_profile {
             get {
                 object obj = ResourceManager.GetObject("add-profile", resourceCulture);

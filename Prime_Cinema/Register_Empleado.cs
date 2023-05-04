@@ -146,5 +146,12 @@ namespace Prime_Cinema
                     "Comuniquese con su Administrador", "CONEXIÓN NO ESTABLECIDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            this.Hide();
+            login.Show();
+        }
     }
 }
