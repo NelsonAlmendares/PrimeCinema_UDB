@@ -50,14 +50,11 @@ namespace Prime_Cinema
             this.Btn_Close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Panel_Container = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cmb_Estado = new Guna.UI.WinForms.GunaComboBox();
             this.Panel_Lateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Panel_Superior.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.Panel_Container.SuspendLayout();
             this.SuspendLayout();
             // 
             // Panel_Lateral
@@ -449,41 +446,10 @@ namespace Prime_Cinema
             // 
             // Panel_Container
             // 
-            this.Panel_Container.Controls.Add(this.label8);
-            this.Panel_Container.Controls.Add(this.cmb_Estado);
             this.Panel_Container.Location = new System.Drawing.Point(16, 22);
             this.Panel_Container.Name = "Panel_Container";
             this.Panel_Container.Size = new System.Drawing.Size(1523, 968);
             this.Panel_Container.TabIndex = 0;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(694, 15);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 29);
-            this.label8.TabIndex = 45;
-            this.label8.Text = "Sucursal:";
-            // 
-            // cmb_Estado
-            // 
-            this.cmb_Estado.BackColor = System.Drawing.Color.Transparent;
-            this.cmb_Estado.BaseColor = System.Drawing.Color.White;
-            this.cmb_Estado.BorderColor = System.Drawing.Color.Silver;
-            this.cmb_Estado.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmb_Estado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_Estado.FocusedColor = System.Drawing.Color.Empty;
-            this.cmb_Estado.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_Estado.ForeColor = System.Drawing.Color.Black;
-            this.cmb_Estado.FormattingEnabled = true;
-            this.cmb_Estado.Location = new System.Drawing.Point(545, 47);
-            this.cmb_Estado.Name = "cmb_Estado";
-            this.cmb_Estado.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.cmb_Estado.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_Estado.Radius = 10;
-            this.cmb_Estado.Size = new System.Drawing.Size(427, 37);
-            this.cmb_Estado.TabIndex = 44;
             // 
             // Dashboard
             // 
@@ -503,8 +469,6 @@ namespace Prime_Cinema
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Panel_Superior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.Panel_Container.ResumeLayout(false);
-            this.Panel_Container.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -532,7 +496,5 @@ namespace Prime_Cinema
         private System.Windows.Forms.Panel Panel_Container;
         private Guna.UI.WinForms.GunaButton gunaButton2;
         private Guna.UI.WinForms.GunaTextBox Txt_Name;
-        private System.Windows.Forms.Label label8;
-        private Guna.UI.WinForms.GunaComboBox cmb_Estado;
     }
 }
